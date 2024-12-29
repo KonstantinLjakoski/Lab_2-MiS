@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab_2_mis/screens/favorite_jokes_screen.dart';
 import './screens/home_screen.dart';
 
 void main() {
@@ -6,6 +7,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  get favoriteJokes => null;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
